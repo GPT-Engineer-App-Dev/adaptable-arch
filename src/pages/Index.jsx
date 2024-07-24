@@ -7,6 +7,15 @@ const Index = () => {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6">Welcome to My App</h1>
       
+      <Card className="mb-6 bg-gray-900 text-white">
+        <CardHeader>
+          <h2 className="text-2xl font-semibold">Just Chat</h2>
+        </CardHeader>
+        <CardContent>
+          <p>Chat with GPT Engineer to implement client requests and features.</p>
+        </CardContent>
+      </Card>
+
       <Card className="mb-6">
         <CardHeader>
           <h2 className="text-2xl font-semibold">About</h2>
